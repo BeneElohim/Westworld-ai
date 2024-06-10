@@ -1,7 +1,7 @@
-site_name: Westworld documentation
+site_name: Westworld Documentation
 site_description: 'Multi-agent simulation library'
-site_author: 'Théo Alves Da Costa'
-site_url: "https://theolvs.github.io/westworld"
+site_author: 'UnityGrid Al's Westworld
+site_url: "https://UnityGrid.AI/westworld"
 edit_uri: ""
 theme:
   name: 'material'
@@ -22,8 +22,8 @@ markdown_extensions:
       custom_checkbox: true
   - toc:
       permalink: true
-repo_name: 'theolvs/westworld'
-repo_url: 'https://github.com/TheoLvs/westworld'
+repo_name: 'unitygrid/westworld'
+repo_url: 'https://github.com/unitygrid/westworld'
 
 
 extra:
