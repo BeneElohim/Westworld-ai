@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "westworld"
+name = "UnityGrid AI Westworld"
 version = "0.1.1"
-description = "Multi-agent simulation library in Python"
-authors = ["Theo Alves Da Costa <theo.alves.da.costa@gmail.com>"]
+description = "Multi-agent 3d physics simulation in Python"
+authors = " >"]
 license = "MIT"
 readme = "README.md"
 
