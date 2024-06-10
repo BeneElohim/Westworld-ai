@@ -1,64 +1,63 @@
-# Westworld
-![](docs/img/cover_hq_westworld1.jpg)
+Westworld simulation game, optimized for integration with blockchain technology and development for the Unity and Unreal SDKs:
+
+# Westworld Simulation Game
+
+![Westworld Cover](docs/img/cover_hq_westworld1.jpg)
 
 ## Description
-**Westworld** is a multi-agent simulation library, its goal to simulate and optimize systems and environments with multiple agents interacting. Its inspiration is drawn from Unity software and [Unity ML Agents](https://github.com/Unity-Technologies/ml-agents), adapted in Python. 
+**Westworld UnityGridAI using Unity and Unreal SDKs** is a multi-agent simulation library designed to simulate and optimize complex systems and environments where multiple agents interact. Drawing inspiration from theo.alves.da.costa 2d westworld simulation.  Unity software and [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents), this library is adapted for Python to enhance flexibility and scalability.
 
-The goal is to be able to simulate environments in logistics, retail, epidemiology, providing pre-coded spatial environments and communication between agents. Optimization can be included using heuristics as well as Reinforcement Learning.
+Our goal is to simulate diverse environments such as logistics, retail, and epidemiology by providing pre-coded spatial environments and agent communication frameworks. The system includes optimization capabilities using heuristics and Reinforcement Learning techniques.
 
-!!! warning "Experimental"
-    This library is extremely experimental, under active development and alpha-release
-    Don't expect the documentation to be up-to-date or all features to be tested
-    Please contact [us](mailto:theo.alves.da.costa@gmail.com) if you have any question
+**Note: This library is highly experimental, currently under active development, and in its alpha release stage. Features may be incomplete or untested.** For inquiries, please contact us at ron.khan@unitygrid.ai 
 
-*The name is of course inspired by the TV series Westworld, which is actually a gigantic multi-agent simulation system.*
+*The name "Westworld" is inspired by the TV series, which portrays a sophisticated multi-agent simulation system.*
 
 ## Documentation
-Documentation is available locally in docs folder or online at https://theolvs.github.io/westworld
+Comprehensive documentation is available in the `docs` folder or online at [Westworld Documentation](https://theolvs.github.io/westworld).
 
 ## Features
-### Current features
-- Easy creation of Grid and non-grid environments
-- Objects (Agents, Obstacles, Collectibles, Triggers)
-- Subclassing of different objects to create custom objects
-- Spawner to generate objects randomly in the environment
-- Basic rigid body system for all objects
-- Simple agent behaviors (pathfinding, wandering, random walk, fleeing, vision range)
-- Automatic maze generation
-- Layer integration to convert image to obstacle and snap it to a grid
-- Sample simulations and sample agents for classic simulations
-- Simulation visualization, replay and export (gif or video)
 
-### Roadmap features
-- More classic simulations and tutorials (boids, sugarscape)
-- Better pathfinding
-- Easy Reinforcement Learning integration with Stable Baselines
-- Other visualization functions than PyGame for web integration 
+### Current Features
+- **Flexible Environment Creation**: Supports both grid and non-grid environments.
+- **Diverse Objects**: Includes agents, obstacles, collectibles, and triggers with easy subclassing for custom objects.
+- **Random Object Spawner**: Generate objects randomly within the environment.
+- **Basic Physics System**: Implements a simple rigid body system for all objects.
+- **Agent Behaviors**: Features pathfinding, wandering, random walk, fleeing, and vision range behaviors.
+- **Maze Generation**: Automatic generation of mazes.
+- **Image-to-Grid Conversion**: Convert images to obstacles and align them to the grid.
+- **Sample Simulations**: Includes sample agents and simulations for classic scenarios.
+- **Simulation Tools**: Visualize, replay, and export simulations as GIFs or videos.
 
+### Roadmap Features
+- **Expanded Simulations and Tutorials**: Additional classic simulations like boids and sugarscape.
+- **Enhanced Pathfinding**: Improved algorithms for agent navigation.
+- **Reinforcement Learning Integration**: Seamless integration with Stable Baselines for reinforcement learning.
+- **Advanced Visualization**: Alternative visualization tools beyond PyGame, including web integration.
 
 ## Installation
+
 ### Install from PyPi
-The library is available on [PyPi](https://pypi.org/project/westworld/) via 
-```
+Install the library directly from PyPi using:
+```sh
 pip install westworld
 ```
 
-### For developers
-- You can clone the github repo / fork and develop locally
-- Poetry is used for environment management, dependencies and publishing, after clone you can run 
+### Developer Setup
+To contribute to the development, you can clone the GitHub repository and set up the environment using Poetry:
 
-```
-# To setup the environment
+```sh
+# Clone the repository
+git clone https://github.com/theolvs/westworld.git
+
+# Navigate to the project directory
+cd westworld
+
+# Install dependencies and set up the environment
 poetry install
 
-# To run Jupyter notebook or a python console
+# Run Jupyter Notebook or a Python console
 poetry run jupyter notebook
 poetry run python
 ```
-
-## Contributors
-- [Théo Alves Da Costa](mailto:theo.alves.da.costa@gmail.com)
-
-## Javascript version
-A javascript version is being developed at https://github.com/TheoLvs/westworldjs
 
